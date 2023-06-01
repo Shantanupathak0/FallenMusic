@@ -57,6 +57,9 @@ pm_buttons = [
     [InlineKeyboardButton(text="ʜᴇʟᴩ", callback_data="fallen_help"),
      InlineKeyboardButton(text=" ᴅᴇᴠᴇʟᴏᴩᴇʀ ", user_id=config.OWNER_ID),
     ],
+    [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+     InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+    ],
 ]
 
 
